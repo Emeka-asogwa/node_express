@@ -4,9 +4,9 @@
   "description": "This is a test directory to learn Git and Node",
   "main": "index.html",
   "scripts": {
-    "start":"npm run lite",
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite":"lite-server"
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "homepage": "https://github.com/Emeka-asogwa/nodeTest#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
